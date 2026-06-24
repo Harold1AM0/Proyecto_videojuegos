@@ -20,7 +20,7 @@ export default class WinScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('fondoVictoria', '../../assets/images/backgrounds/victoria.png');
+    this.load.image('fondoVictoria', '/assets/images/backgrounds/victoria.png');
   }
 
   create() {

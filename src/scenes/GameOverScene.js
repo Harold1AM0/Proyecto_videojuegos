@@ -11,7 +11,7 @@ export default class GameOverScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('fondoMuerte', '../../assets/images/backgrounds/muerte.png');
+    this.load.image('fondoMuerte', '/assets/images/backgrounds/muerte.png');
   }
 
   create() {
